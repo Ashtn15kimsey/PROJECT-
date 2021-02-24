@@ -107,7 +107,6 @@ width:100%;
 position:absolute;
 /* This ensures that the image cannot render
 outside of the container without forcing any scrollbar*/
-overflow:hidden;
 top:0;
 left:0;
 text-align:center;
@@ -145,7 +144,7 @@ z-index:100;
  .head-main{
    text-shadow:2px, 4px, 5px, rgba(0,0,0,0.9);
    font-variant: small-caps;
-   color: #fff;
+   color:red;
    letter-spacing:5pt;
    word-spacing:21pt;
    font-size:4.5em;
@@ -156,6 +155,73 @@ z-index:100;
    border:5px double #fff;
    padding:10px;
  }
+
+ .head-sub-main {
+   font-size:23px;
+   font-weight:500;
+   padding:50px 20px 10px 20px;
+   text-transform: uppercase;
+ }
+ .head-last {
+   font-size:18px;
+   font-weight:900;
+   padding:5px 20px 20px 20px;
+   border:1px dotted #fff;
+   padding:5px;
+ }
+ /*------------------------------
+   contact-STYLE
+   ----------------------------*/
+   .flex-container {
+     display:-webkit-flex;
+     display:flex;
+     flex-wrap: wrap;
+     padding:100px;
+     border-radius:8px;
+     margin:0px auto;
+     border-color:rgba(100,65,0.3);
+     box-shadow:2px 2px 10px 0 rgba(0,0,0,0.5);
+    }
+    .reservation h2 {
+      width:70%;
+      text-align:center;
+      margin:0 auto;
+      color:#13161b;
+      font-weight:500;
+      font-size:1.3em;
+      letter-spacing:0pt;
+      word-spacing:0pt;
+    }
+    .reservation h2 span {
+      width:70%;
+      text-align:center;
+      margin:0 auto;
+      color:#13161B;
+      font-weight:500;
+      font-size:1.5em;
+      font-variant:small-caps;
+      letter-spacing:.4pts;
+      word-spacing:.3pt;
+    }
+    .reservation p {
+      color:#13161B;
+      width:50%;
+      margin:0 auto;
+    }
+    .reservation form {
+      font-size:15px;
+      outline:home;
+      font-weight:600;
+      color:#8D8E8F;
+      padding:12px 12px;
+      width:70%;
+      border:1px solid #808D80;
+      margin:2% auto;
+      border-radius:7px;
+      background:rgba(227,222,222);
+      box-shadow:2px 3px 3px 0px rgba(0,0,0.3);
+      font-family:"Raleway", sans-serif;
+    }
 
 
 
